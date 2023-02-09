@@ -1,0 +1,45 @@
+{
+    "name": "cidekar/laravel-feature-flags",
+    "description": "A feature flag package for Laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harrison DeStefano",
+            "email": "harrison@cidekar.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cidekar\\FeatureFlags\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cidekar\\FeatureFlags\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cidekar\\FeatureFlags\\FeatureFlagsServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "laravel/legacy-factories": "^1.0.4",
+        "nunomaduro/collision": "^6.2",
+        "orchestra/testbench": "^7.21"
+    }
+}
