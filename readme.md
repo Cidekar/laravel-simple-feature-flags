@@ -1,7 +1,7 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/4164072/217960315-cbb6dcd6-a84a-4222-976e-8e3656e146a2.png" width="500" height="217"></p>
 
 # Introduction
-Laravel Simple Feature Flags provides one approach to securing your application's features. By assigning our middleware to your application's route, the feature flag middleware receives a flag name argument and verifies the route is ready to receive traffic. An HTTP access denied response is returned is by default.
+Laravel Simple Feature Flags provides one approach to securing your application's features. By assigning our middleware to your application's route, the feature flag middleware receives a flag name argument and verifies the route is ready to receive traffic. An 403 HTTP access denied response is returned by default.
 
 ## Motivation
 Feature flags are not a novel concept and several packages already exist. Laravel Simple Feature Flags aims to make securing features via routes dead-simple. Create a flag, add it to your route middleware, and manage it through the CLI.
