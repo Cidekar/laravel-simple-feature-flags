@@ -9,7 +9,7 @@
     "semantic-release": "^19.0.2"
   },
   "name": "laravel-simple-feature-flags",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release"
