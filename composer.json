@@ -1,6 +1,6 @@
 {
-    "name": "cidekar/laravel-feature-flags",
-    "description": "A feature flag package for Laravel.",
+    "name": "cidekar/laravel-simple-feature-flags",
+    "description": "A super simple feature flag package for Laravel.",
     "license": "MIT",
     "authors": [
         {

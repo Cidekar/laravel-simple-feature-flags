@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.4",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "semantic-release": "^19.0.2"
+  },
+  "name": "laravel-simple-feature-flags",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cidekar/laravel-simple-feature-flags.git"
+  },
+  "author": "Harrison DeStefano",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/Cidekar/laravel-simple-feature-flags/issues"
+  },
+  "homepage": "https://github.com/Cidekar/laravel-simple-feature-flags#readme",
+  "description": "A super simple feature flag package for Laravel.",
+  "publishConfig": {
+    "access": "restricted"
+  }
+}
